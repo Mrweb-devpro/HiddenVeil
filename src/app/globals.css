@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --bg-tr: #f7c8c9;
+  --bg-lb: #a2d3db;
+  --accent: #9a5a5b;
+  --background: url("/assets/bg.png");
+  /* --background: #ffffff; */
+  --foreground: #171717;
+}
+
+body {
+  /* background: linear-gradient(270deg, var(--bg-tr), var(--bg-lb)); */
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label:has(input[type="file"]),
+button {
+  cursor: pointer;
+}
