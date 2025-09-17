@@ -4,7 +4,7 @@ const isPublicRoute = createRouteMatcher([
   "/",
   "/sign-in(.*)",
   "/sign-up(.*)",
-  "/messages(.*)",
+  "/send(.*)",
 ]);
 
 // const isDashboardRoute = createRouteMatcher(["/create(.*)", "/send(.*)"]);
